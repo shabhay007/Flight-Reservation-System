@@ -1,0 +1,82 @@
+@charset "UTF-8";
+
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+}
+
+.main-wrapper {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.main-wrapper form{
+	min-width: 400px;
+}
+
+h2 {
+    text-align: center;
+    color: #2980b9;
+    margin-bottom: 30px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="number"],
+select {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+.form-actions {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.add-btn {
+	width: 100%;
+    background-color: #27ae60;
+    color: white;
+    padding: 10px 24px;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.add-btn:hover {
+    background-color: #1e8449;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .main-wrapper {
+        padding: 20px;
+    }
+
+    .add-btn {
+        padding: 8px 18px;
+        font-size: 14px;
+    }
+}

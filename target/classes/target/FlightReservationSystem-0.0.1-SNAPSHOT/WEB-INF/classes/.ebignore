@@ -1,0 +1,10 @@
+.env
+src/main/resources/config.properties
+target/
+.idea/
+*.iml
+*.log
+*.tmp
+.DS_Store
+*.bak
+*.swp

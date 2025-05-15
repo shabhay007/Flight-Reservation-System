@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+.my-bookings-container {
+    padding: 30px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.my-bookings-container table {
+    width: 100%;
+    background-color: white;
+    border-collapse: collapse;
+    margin-top: 20px;
+    box-shadow: 0 0 10px #ccc;
+}
+
+.my-bookings-container th,
+.my-bookings-container td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.my-bookings-container th {
+    background-color: #2980b9;
+    color: white;
+}
+
+.my-bookings-container tr:hover {
+    background-color: #f1f1f1;
+}
+
+.my-bookings-container .btn-cancel {
+    background-color: #e74c3c;
+    color: white;
+    padding: 6px 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.my-bookings-container .cancelled {
+    color: red;
+    font-weight: bold;
+}

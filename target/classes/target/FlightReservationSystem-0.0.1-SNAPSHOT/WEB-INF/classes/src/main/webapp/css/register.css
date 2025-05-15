@@ -1,0 +1,95 @@
+@charset "UTF-8";
+
+/* Specific styles for Register Page */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7f6;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Register form container */
+.register-container {
+    background-color: white;
+    padding: 30px;
+    margin: 30px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 450px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #293944;
+}
+
+/* Form styling */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Label styling */
+label {
+    margin-bottom: 5px;
+    text-align: left;
+    font-weight: bold;
+}
+
+/* Input fields and select */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+select:focus {
+    border-color: #293944;
+    outline: none;
+}
+
+/* Submit button */
+input[type="submit"] {
+    padding: 10px;
+    background-color: #293944;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #1a2c37;
+}
+
+/* Message Styling */
+.register-message {
+    margin-top: 15px;
+    font-size: 14px;
+    color: green; /* You can change this based on success or error */
+}
+
+/* Responsive behavior */
+@media (max-width: 600px) {
+    .register-container {
+        width: 90%;
+        padding: 20px;
+    }
+}

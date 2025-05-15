@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+
+/* General styles for the Flight Management page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Main content wrapper */
+.main-wrapper {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+h2 {
+    color: #2980b9;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 16px;
+    color: green;
+    font-weight: bold;
+}
+
+/* Table styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #2980b9;
+    color: white;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+td a {
+    color: #2980b9;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+/* Button styles */
+.add-btn {
+    background-color: #2980b9;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.add-btn:hover {
+    background-color: #21618c;
+}
+
+.edit-btn, .delete-btn {
+    background-color: #f39c12;
+    color: white;
+    padding: 6px 10px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.edit-btn:hover {
+    background-color: #e67e22;
+}
+
+.delete-btn {
+    background-color: #e74c3c;
+}
+
+.delete-btn:hover {
+    background-color: #c0392b;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+    .main-wrapper {
+        padding: 15px;
+        margin: 10px;
+    }
+
+    table, th, td {
+        font-size: 14px;
+    }
+}

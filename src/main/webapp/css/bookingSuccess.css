@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+.booking-success-container {
+    background: white;
+    padding: 25px 35px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ccc;
+    max-width: 600px;
+    margin: 40px auto;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+
+.booking-success-container h2, 
+.booking-success-container h3 {
+    color: #2c3e50;
+}
+
+.booking-success-container p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.booking-success-container a {
+    display: inline-block;
+    margin-top: 20px;
+    color: #2980b9;
+    text-decoration: none;
+}
